@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background-color: #A7C7E7;
+    margin: 0;
+    font-family: "Montserrat Alternates", sans-serif;
+    color:#40514E;
+}
+h1{
+    margin: 0;
+    font-family:"Pacifico",cursive;
+    font-size: 4rem;
+    line-height: 1em;
+}
+p{
+    width: 60%;
+    margin-left:auto;
+    margin-right:auto;
+}
+p.subtitle{
+    font-size:2rem;
+    font-weight:200;
+}
+
+.top{
+    text-align: center;
+}
+.middle{
+    margin: auto;
+    padding: 100px 0 100px 0;
+    text-align: center;
+    background-color: #f6f6fa;
+}
+.bottom{
+    margin: auto;
+    text-align: center;
+    background-color: #66BFBF;
+    color: white;
+}
+h2{
+    color: #66BFBF;
+}
+h3,a{
+    color:#11999E;
+}
+.cloud-1{
+    position: relative;
+    margin-top: 10px;
+    left: 20%;
+}
+.cloud-2{
+    position: absolute;
+    top:35%;
+    left: 30%;
+}
+
+.skill-row{
+    width:50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+.kirbus{
+    width: 10%;
+}
+.imgs{
+    width:25%;
+    float: left;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+button{
+    border-radius: 10px;
+    padding: .5rem;
+    border: none;
+    font-size: 2rem;
+    transition: .5s;
+}
+a{
+    text-decoration: none;
+}
+button:hover{
+    background-color: black;
+}
