@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+/*Broad Stuff*/
+html{
+    scroll-behavior: smooth;
+}
+.body{
+    background-color: aliceblue;
+    font-family: "Montserrat",sans-serif;
+    font-weight: 200;
+}
+.center{
+    text-align: center;
+}
+.container-fluid, .carousel-inner{
+    padding: 3% 15%;
+}
+
+/*Navbar Stuff (Trapped in the Title, so that's an oops)*/
+.navbar{
+    padding-bottom: 5vh;
+}
+.navbar-brand{
+    font-family: "Ubuntu",sans-serif;
+    font-weight: 800;
+    font-size: 2rem;
+}
+.nav-link{
+    margin: 15px;
+}
+
+/*Block 1*/
+#title{
+    background-color: #4c61ff;
+    height: 90vh;
+    overflow: hidden;
+    text-align: left;
+}
+.dlbn{
+    margin: 3% 3% 0 0;
+}
+.dog{
+    transform: rotate(30deg);
+    width: 70%;
+    position: absolute;
+    right: 20%
+}
+.cry{
+    font-weight: 700;
+    line-height: 1.5;
+    color: aliceblue;
+}
+
+h3{
+    font-weight: 800;
+}
+
+/*Feature Block*/
+/*Eh Screw it*/
+
+.fetcol{
+    margin: 5% 0 5%;
+}
+.fet{
+    font-size: 3rem;
+    margin: 5%;
+    color: #95a1ff;
+    transition: .5s;
+}
+.socials{
+    font-size: 2rem;
+    margin: 5px;
+    color: #95a1ff;
+}
+.fet:hover, .socials:hover{
+    color:#4c61ff
+}
+
+#testimonials, #press, #cta{
+    background-color: #4c61ff;
+    color:aliceblue;
+    padding: 50px;
+}
+.logo{
+    display: block;
+    width: 100%;
+    margin: 10px auto 10px auto;
+    max-width: 200px;
+}
+
+.timg{
+    border-radius: 50%;
+    width: 10%;
+    margin: 0 10px 0 10px;
+    box-shadow: 5px 5px 3px 0px rgba(0, 0, 0, 0.50);
+}
+.carousel-item{
+    box-shadow: inset 5px 5px 5px 3px rgba(0, 0, 0, 0.50);
+    padding: 30px 0 30px 0;
+    margin: 10px 0 30px 0;
+}
+.carousel-inner{
+    padding: auto 0 auto;
+    
+}
+.card{
+    margin: 10px auto 10px;
+    width: 100%;
+}
+.price{
+    padding: 20px;
+}
+.pricebody{
+    line-height: 1.1;
+}
+footer{
+    padding: 5%;
+}
+.ctaer, .pricer, .cry{
+    font-size: 2.5rem;
+}
+
+@media (max-width: 1150px){
+    .dog{
+        width: 50%;
+        
+        right: 25%;
+    }
+    .titlecontent{
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    h1{
+        font-size: 2.5rem;
+    }
+}
+@media (max-width: 960px) {
+    .container-fluid{
+        padding: 3%;
+    }
+    .dog{
+        transform: rotate(0deg);
+    }
+}
